@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
 
+html, body {
+	height:100%;
+}
 .container-fluid {
     background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
@@ -7,11 +10,7 @@
   background:      -o-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* W3C */
   font-family:'Open Sans';
-  height:100vh;
-}
-
-.container-fluid {
-	height:100%;
+  height:100%;
 }
 
 h3 {
