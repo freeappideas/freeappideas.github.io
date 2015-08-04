@@ -2,18 +2,29 @@
 
 html, body {
 	height:100%;
+  background-color:white;
+}
+
+.header {
+
+  background-color:#0288D1;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+        
 }
 .container-fluid {
-    background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* W3C */
   font-family:'Open Sans';
   height:100%;
 }
 
 h3 {
   font-weight:100;
-  font-size:46px;
+  font-size:28px;
+  padding-bottom:15px;
+  color:white;
+}
+
+.glyphicon {
+  position: relative;
+  top:2px;
+  font-size:1em;
 }
