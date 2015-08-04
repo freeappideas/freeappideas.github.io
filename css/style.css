@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
 
 html, body {
 	height:100%;
@@ -6,25 +8,31 @@ html, body {
 }
 
 .header {
-
   background-color:#0288D1;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-        
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);  
+  color:white;  
+}
+
+.header a {
+  color:white;
 }
 .container-fluid {
-  font-family:'Open Sans';
   height:100%;
 }
-
 h3 {
   font-weight:100;
   font-size:28px;
-  padding-bottom:15px;
-  color:white;
+  margin-bottom:0px;
+}
+h3, .twitter-plug {
+  font-family:'Roboto';
+}
+.twitter-plug {
+  font-size:0.8em;
 }
 
 .glyphicon {
   position: relative;
   top:2px;
-  font-size:1em;
+  font-size:0.8em;
 }
